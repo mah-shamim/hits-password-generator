@@ -1,0 +1,106 @@
+<!-- meta tags and other links -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HITS - Password Generator</title>
+
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" sizes="16x16">
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body class="no-lightmode">
+
+    <div class="preloader"></div>
+
+    <div class="main-wrapper">
+        <div class="container pt-100 pb-100">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8">
+                    <div class="custom--card">
+                        <div class="card-header">
+                            <h4 class="card-title text-center text-white">
+                                HITS - Password Generator
+                            </h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="row g-4">
+
+                                <div class="col-lg-12">
+                                    <div class="input-group">
+                                        <button id="hidePasswordBtn" class="input-group-text bg--primary border-0 text-white">
+                                            Hide
+                                        </button>
+
+                                        <input type="text" id="password" value="" class="form--control">
+
+                                        <button id="copyBtn" class="input-group-text bg--base border-0 text-white">
+                                            Copy
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 justify-content-between d-flex flex-wrap align-items-center mt-0">
+                                    <label class="length-display" id="lengthDisplay">Length: 16</label>
+                                    <input class="forom-control w-100" type="range" id="length" min="6" max="50" value="16">
+                                </div>
+
+                                <div class="col-xl-3 col-6">
+                                    <div class="form-check form-switch">
+                                      <input class="form-check-input" type="checkbox" id="uppercase">
+                                      <label class="form-check-label" for="uppercase">Uppercase</label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-6">
+                                    <div class="form-check form-switch">
+                                      <input class="form-check-input" type="checkbox" id="lowercase">
+                                      <label class="form-check-label" for="lowercase">Lowercase</label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-6">
+                                    <div class="form-check form-switch">
+                                      <input class="form-check-input" type="checkbox" id="numbers">
+                                      <label class="form-check-label" for="numbers">Numbers</label>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-6">
+                                    <div class="form-check form-switch">
+                                      <input class="form-check-input" type="checkbox" id="symbols">
+                                      <label class="form-check-label" for="symbols">Symbols</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <div class="btn-group btn-group-sm d-flex flex-wrap" role="group" aria-label="Basic radio toggle button group">
+                                        <input type="radio" class="btn-check" name="type" id="custom">
+                                        <label class="btn btn-outline-primary" for="custom">Custom</label>
+
+                                        <input type="radio" class="btn-check" name="type" id="default">
+                                        <label class="btn btn-outline-primary" for="default">Default</label>
+
+                                        <input type="radio" class="btn-check" name="type" id="strong" checked="">
+                                        <label class="btn btn-outline-primary" for="strong">Strong</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <button id="generateBtn" class="btn btn--base w-100">Generate Password</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

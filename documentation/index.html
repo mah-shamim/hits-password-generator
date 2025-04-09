@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>HITS - Password Generator</title>
+
+      <link rel="icon" type="image/png" href="assets/images/favicon.png" sizes="16x16" />
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="assets/css/line-awesome.min.css" />
+      <link rel="stylesheet" href="assets/css/all.min.css" />
+      <link rel="stylesheet" href="assets/css/main.css" />
+   </head>
+    <body> 
+
+      <div class="preloader">
+         <div class="preloader-icon-img">
+            <img src="assets/images/spinner.svg" alt="preloader spinner">
+         </div>
+      </div>
+
+      <nav class="nams__nav">
+         <button type="button" class="sidebar-open-btn p-2">
+         <i class="fas fa-align-justify"></i>
+         </button>
+         <ul class="nams__nav-right">
+            <li></li>
+         </ul>
+        </ul>
+      </nav>
+
+      <div class="body-area" id="docNav">
+         <aside class="nams__sidebar">
+            <button type="button" class="sidebar-close-btn"><i class="fas fa-times-circle text-dark"></i></button>
+            <div class="nams__logo">
+               <a href="index.html" class="long-logo"><img src="assets/images/logo.svg" alt="logo image"></a>
+               <a href="index.html" class="short-logo-icon"><img src="assets/images/logo.svg" alt="logo image"></a>
+            </div>
+            <div class="nams__sidebar-nav-wrapper">
+               <ul class="nams__sidebar-nav" id="nams__sidebar-nav">
+                  <li>
+                    <a class="doc-nav__link" href="#introduction">
+                       <span class="nav-icon fas fa-clone"></span>
+                       <span class="nams__nav-caption">Introduction</span>
+                    </a>
+                  </li>
+                  <li>
+                     <a class="doc-nav__link" href="#req">
+                        <span class="nav-icon fas fa-server"></span>
+                        <span class="nams__nav-caption">Requirement</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a class="doc-nav__link" href="#faq">
+                        <span class="nav-icon fas fa-question"></span>
+                        <span class="nams__nav-caption">FAQ</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a class="doc-nav__link" href="#installation">
+                        <span class="nav-icon fas fa-cog"></span>
+                        <span class="nams__nav-caption">How to Use</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a class="doc-nav__link" href="#folder">
+                        <span class="nav-icon fas fa-folder"></span>
+                        <span class="nams__nav-caption">Folder Structure</span>
+                     </a>
+                  </li>
+
+               </ul>
+            </div>
+         </aside>
+
+         <main class="nams__main">
+            <div class="doc__body">
+              <div id="introduction" class="section--sm section--first">
+                <div class="list">
+                  <div class="doc-head">
+                    <div class="doc-head__content">
+                      <h5 class="doc-head__title text-white">HITS</h5>
+                      <span class="doc-head__sub-title text-white">
+                        Password Generator
+                      </span>
+                    </div>
+                  </div>
+                  <div class="doc-body">
+                    <ul class="list" style="--gap: 0.2rem">
+                      <li><strong>Created :</strong> 04-07-2024</li>
+                      <li>
+                        <strong>By :</strong>
+                        <a href="https://www.codester.com/NamsWeb" class="t-link">NamsWeb</a>
+                      </li>
+                      <li><strong>Email :</strong> <a class="t-link" href="mailto:support@namsweb.com">support@namsweb.com</a>
+                      </li>
+                    </ul>
+
+                    <p class="mt-4 lg-text mb-1">
+                      HITS - Password Generator is a powerful and user-friendly tool designed to generate highly secure passwords for all your online accounts. In today’s digital landscape, where security breaches and unauthorized access are ever-increasing concerns, having a reliable and robust password generator is crucial. HITS addresses this need with its advanced features and intuitive interface, ensuring your passwords are both strong and secure.
+                      <br>
+                      <br>
+                      With HITS, you can customize the length of your passwords from 6 to 50 characters and choose from a variety of character types including uppercase letters, lowercase letters, numbers, and symbols. The tool offers three security modes: Custom, Default, and Strong, allowing you to create passwords that suit your specific needs. The instant copy feature makes it easy to use your new password immediately, and the hide/show password option lets you verify your password securely before copying. HITS's clean, responsive design is built with Bootstrap, ensuring compatibility across all devices.
+                    </p>
+
+                    <h5 class="mt-5">Key Features</h5>
+                    <ul>
+                      <li>
+                       <b>Customizable Length: </b> Easily adjust the password length from 6 to 50 characters to suit your specific needs.
+                      </li>
+                      <li>
+                        <b>Character Options: </b> Choose to include uppercase letters, lowercase letters, numbers, and symbols for added security.
+                      </li>
+                      <li>
+                        <b>Three Security Modes: </b> <b>Custom:</b> Fully personalize your password composition, <b>Default:</b> Balanced mix of characters for general use, <b>Strong:</b> Maximum security with a complex mix of characters.
+                      </li>
+                      <li>
+                        <b>Instant Copy: </b> Quickly copy the generated password to your clipboard with a single click.
+                      </li>
+                      <li>
+                        <b>Hide/Show Password: </b> Toggle visibility to ensure your password is secure before copying.
+                      </li>
+                      <li>
+                        <b>Modern UI: </b> Clean and responsive design built with Bootstrap, ensuring compatibility across all devices.
+                      </li>
+                      <li>
+                        <b>No Dependencies: </b> Standalone application with no external dependencies beyond the included libraries.
+                      </li>
+                    </ul>
+
+
+                    <p class="mt-4 lg-text">
+                      The documentation will help to understand the total system and we have tried to summarize the total
+                    </p>
+                    <p class="mt-4 lg-text">
+                      Thank you for purchasing <strong>HITS</strong>. If you have any questions or queries that are not
+                      answered in this document, please feel free to contact us via email. We will try to respond to you as soon
+                      as possible. Thank you so much.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="req" class="section--sm">
+                <div class="container-fluid p-0">
+                  <div class="row g-0">
+                    <div class="col-12">
+                      <div class="doc-head">
+                        <div class="doc-head__content">
+                          <h5 class="doc-head__title text-white">Requirements</h5>
+                          <span class="doc-head__sub-title text-white">
+                            All requirements are stated bellow
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="row g-4 align-items-center">
+                        <div class="col-xl-10">
+                          <div class="doc-body">
+                            <ul class="list list--base" style="--gap: 0.5rem">
+                              <li>Basic HTML knowledge for integration.</li>
+                              <li>A web browser for navigating.</li>
+                              <li>Access to your website's HTML or CMS.</li>
+                              <li>Any type of CMS or framework such as WordPress, Laravel, Shopify, Joomla, and others.</li>
+                              <li>No need for jQuery or other plugins.</li>
+                              <li>Simple to integrate into existing projects or use as a standalone tool.</li>
+                              <li>JavaScript Enabled</li>
+                              <li>HITS can be used offline or online both</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="faq" class="section--sm">
+                <div class="container-fluid p-0">
+                  <div class="row g-0">
+                    <div class="col-12">
+                      <div class="doc-head">
+                        <div class="doc-head__content">
+                          <h5 class="doc-head__title text-white">FAQ</h5>
+                          <span class="doc-head__sub-title text-white">
+                            Frequently Asked Questions
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container-fluid">
+                  <div class="row p-3 g-3">
+                    <div class="col-12">
+                      <div class="row mt-4">
+
+                        <div class="col-md-12 mb-3 card p-3">
+                          <div class="faq-body">
+                            <p class="mb-2 fw-bold text--canvas">
+                              What is HITS - Password Generator?
+                            </p>
+                            <p class="m-0">
+                              HITS - Password Generator is a powerful tool designed to generate highly secure passwords for all your online accounts. It offers advanced features and an intuitive interface, ensuring that your passwords are robust and protected against unauthorized access.
+                            </p>
+                          </div>
+                        </div>                        
+                        <div class="col-md-12 mb-3 card p-3">
+                          <div class="faq-body">
+                            <p class="mb-2 fw-bold text--canvas">
+                              How do I customize the password length?
+                            </p>
+                            <p class="m-0">
+                              You can easily adjust the password length using the slider provided in the interface. The length can be set anywhere between 6 and 50 characters to meet your specific security needs.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3 card p-3">
+                          <div class="faq-body">
+                            <p class="mb-2 fw-bold text--canvas">
+                              What character types can I include in my password?
+                            </p>
+                            <p class="m-0">
+                              HITS allows you to include uppercase letters, lowercase letters, numbers, and symbols in your password. You can select or deselect these options according to your preference.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3 card p-3">
+                          <div class="faq-body">
+                            <p class="mb-2 fw-bold text--canvas">
+                              Is HITS compatible with all devices?
+                            </p>
+                            <p class="m-0">
+                             Yes, HITS is built with a responsive design using Bootstrap, ensuring compatibility across all devices, including desktops, tablets, and smartphones.
+                            </p>
+                          </div>
+                        </div>                        
+                        <div class="col-md-12 mb-3 card p-3">
+                          <div class="faq-body">
+                            <p class="mb-2 fw-bold text--canvas">
+                              Can I integrate HITS into my existing projects?
+                            </p>
+                            <p class="m-0">
+                             Absolutely! HITS is easy to integrate into existing projects or can be used as a standalone tool. The provided documentation will guide you through the integration process.
+                            </p>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="installation" class="section--sm">
+                <div class="container-fluid p-0">
+                  <div class="row g-0">
+                    <div class="col-12">
+                      <div class="doc-head">
+                        <div class="doc-head__content">
+                          <h5 class="doc-head__title text-white">Installation</h5>
+                          <span class="doc-head__sub-title text-white">
+                            Simple Setup Process
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="row g-4 align-items-center">
+                        <div class="col-xl-12">
+                          <div class="doc-body">
+                            <p class="lead">
+                              <b>Just copy the necessary portion from index.html and app.js then paste into your website. It's compatible with any website or CMS like WordPress, Joomla, Prestashop, Shopify, and more. No need for CSS or image files. No jQuery or other dependencies required. Just fast and clean Vanilla JavaScript.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="folder" class="section--sm">
+                <div class="container-fluid p-0">
+                  <div class="row g-0">
+                    <div class="col-12">
+                      <div class="doc-head">
+                        <div class="doc-head__content">
+                          <h5 class="doc-head__title text-white">Folder Structure</h5>
+                          <span class="doc-head__sub-title text-white">
+                            Item Folder Details
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-12"> 
+                      <div class="doc-body">
+                        <p class="lead">
+                          Upon purchasing and downloading HITS - Password Generator, you will receive a package containing two main folders: Documentation and Files. 
+                          <br>
+                          This structured organization ensures that you can easily find and manage all the necessary components to set up and customize HITS according to your needs.
+                        </p>
+                        <ul class="list" style="--gap: 0.3rem">
+                          <li>
+                            <span class="list list--row align-items-center">
+                              <span class="xl-text lh-1">
+                                <i class="fas fa-folder"></i>
+                              </span>
+                              <span class="lg-text d-inline-block">Documentation</span>
+                            </span>
+                          </li>
+                          <small>The Documentation folder includes comprehensive guides and instructions to help you get started with HITS quickly. Here, you will find:</small>
+                          <li>
+                            <span class="list list--row align-items-center">
+                              <span class="xl-text lh-1">
+                                <i class="fas fa-folder"></i>
+                              </span>
+                              <span class="lg-text d-inline-block">Files</span>
+                            </span>
+                          </li>
+                          <small>The Files folder contains the core components of HITS. Inside this folder, you will find one file and one folder, meticulously organized to ensure ease of use and customization.</small>
+                        </ul>
+
+                        <p class="mt-4 lg-text">
+                          Inside the Files folder there are one file and one folder
+                        </p>
+
+                        <ul class="list" style="--gap: 0.3rem">
+                          <li>
+                            <span class="list list--row align-items-center">
+                              <span class="xl-text lh-1">
+                                <i class="fas fa-folder"></i>
+                              </span>
+                              <span class="lg-text d-inline-block">assets</span>
+                            </span>
+                          </li>
+                          <small>The assets folder houses all the essential assets required for HITS, including CSS, JavaScript, and image files. This folder is structured as follows:</small>
+                          <li>
+                            <span class="list list--row align-items-center">
+                              <span class="xl-text lh-1">
+                                <i class="fas fa-file-code"></i>
+                              </span>
+                              <span class="lg-text d-inline-block">index.html</span>
+                            </span>
+                          </li>
+                          <small>The index.html file is the central hub of HITS. This file contains the entire structure and content of the password generator. It is designed with a clear and logical structure to facilitate easy navigation and editing.</small>
+                        </ul>
+
+                        <p class="lead mt-5">
+                          With this organized folder structure, HITS - Password Generator is designed to be user-friendly and easy to customize. The Documentation folder provides all the necessary guidance, while the Files folder contains everything you need to implement and personalize the tool. 
+                          <br>Whether you are a novice or an experienced developer, you will find HITS easy to use and integrate into your projects. Enjoy the robust security and flexibility that HITS offers!
+                        </p>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+         </main>
+
+      </div>
+
+      <script src="assets/js/jquery-3.7.1.min.js"></script>
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/app.js"></script>
+   </body>
+</html>
