@@ -4,7 +4,7 @@ HITS - Password Generator is a powerful and user-friendly tool designed to gener
 
 With HITS, you can customize the length of your passwords from 6 to 50 characters and choose from a variety of character types including uppercase letters, lowercase letters, numbers, and symbols. The tool offers three security modes: Custom, Default, and Strong, allowing you to create passwords that suit your specific needs. The instant copy feature makes it easy to use your new password immediately, and the hide/show password option lets you verify your password securely before copying. HITS's clean, responsive design is built with Bootstrap, ensuring compatibility across all devices.
 
-Demo Link:  [HITS - Password Generator](https://demo.namsweb.com/HITS/)
+Demo Link:  [HITS - Password Generator](https://demo.Kovatz.com/HITS/)
 
 Why Choose HITS?
 In today's digital age, strong passwords are essential for protecting your online presence. HITS offers an easy and effective solution for generating secure passwords, helping you safeguard your accounts from unauthorized access. Whether you need a simple password for a new account or a highly complex one for critical access, HITS has you covered.
